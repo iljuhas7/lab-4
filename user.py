@@ -1,0 +1,7 @@
+print("What is your name?")
+name = input()
+print("How old are you?")
+age = int(input())
+print("Where do you live?")
+residency = input()
+print("This is `{0}` \nIt is `{1}` \n(S)he live in `{2}` ".format(name, age, residency))
